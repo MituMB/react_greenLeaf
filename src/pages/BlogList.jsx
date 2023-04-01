@@ -7,11 +7,17 @@ import b4 from '../assets/images/blog/8.jpg'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const BlogList = () => {
   return (
     <div>
+        <Helmet>
+            <title>Greenleaf blog view</title>
+            <meta name="description" content="Greenleaf blog view" />
+            <link rel="canonical" href="/blog-list" />
+            <meta name="robots" content="noindex"/>
+        </Helmet>
          <section class="pg-title-area">
         <div class="container">
             <div class="col-lg-12 text-center">
