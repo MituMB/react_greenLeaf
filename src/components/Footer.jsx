@@ -177,7 +177,7 @@ const Footer = () => {
                 <div class="col-md-12">
                     <div class="footer-bottom-area">
                         <div class="copyright-text float-left">
-                            <p>Copyright © 2018 <a class="thm-clr" href="#">GreenWorld</a> by <a class="thm-clr" href="#"></a>. All Rights Reserved.</p>
+                            <p>Copyright © 2023 <a class="thm-clr" href="#">GreenWorld</a> by <a class="thm-clr" href="#"></a>. All Rights Reserved.</p>
                         </div>
                       
                     </div>
